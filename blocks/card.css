@@ -15,6 +15,11 @@
   justify-content: space-between;
 }
 
+.card__title {
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+
 .card__like-btn {
   background-image: url(../images/heart.svg);
   width: 23px;
@@ -22,4 +27,7 @@
   border: none;
   background-color: transparent;
   opacity: 40%;
+  width: 23px;
+  height: 20px;
+  border: 2px rgba(33, 33, 33, 1);
 }

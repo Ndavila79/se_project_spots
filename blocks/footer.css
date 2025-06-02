@@ -3,4 +3,7 @@
   justify-content: center;
   padding: 60px 0;
   margin: 0;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  color: rgba(33, 33, 33, 0.7);
 }
