@@ -21,8 +21,8 @@ This project is made so all the elements are displayed correctly on popular scre
 
 This webpage is deployed to github Pages.
 
-- [Deployment Link]: (https://ndavila79.github.io/se_project_spots/)
+- Deployment Link: (https://ndavila79.github.io/se_project_spots/)
 
 ## Project Video
 
-- [Video Link]: https://drive.google.com/file/d/1BvnXnoGHjiAEuyZZsIpbKu_lS6BqBtAN/view?usp=sharing
+- Video Link: https://drive.google.com/file/d/1BvnXnoGHjiAEuyZZsIpbKu_lS6BqBtAN/view?usp=sharing
