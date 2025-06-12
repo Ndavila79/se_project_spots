@@ -1,6 +1,7 @@
 .page {
   background-color: #fcf5e5;
   min-height: 100vh;
+  color: #212121;
   font-family: Poppins, Arial, Helvetica, sans-serif;
   font-weight: 500;
 }
