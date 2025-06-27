@@ -14,6 +14,7 @@
 
 .modal_is-opened {
   visibility: visible;
+  transition: 0s ease-in 0s, opacity 0.5s ease-out;
 }
 
 .modal__container {
@@ -35,10 +36,15 @@
   font-size: x-large;
   border-style: none;
   background-color: transparent;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.5s linear;
 }
 
 .modal__close-btn:hover {
   border: 2px rgba(33, 33, 33, 1);
+  visibility: visible;
+  opacity: 1;
 }
 
 .modal__title {

@@ -58,10 +58,14 @@
   gap: 8px;
   opacity: 70%;
   color: #212121;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.5s linear;
 }
 
 .profile__edit-btn:hover {
   cursor: pointer;
+  visibility: visible;
   opacity: 1;
 }
 
@@ -74,11 +78,16 @@
   border-style: none;
   background-color: rgba(33, 33, 33, 1);
   color: rgba(252, 245, 229, 1);
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.5s linear;
 }
 
 .profile__new-post-btn:hover {
   cursor: pointer;
   opacity: 80%;
+  visibility: visible;
+  opacity: 1;
 }
 
 @media screen and (max-width: 627px) {
