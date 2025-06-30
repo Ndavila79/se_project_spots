@@ -57,7 +57,7 @@ function handleAddCardSubmit(evt) {
   postTitleEl.textContent = newPostTitleInput.value;
 
   newPostModal.classList.remove("modal_is-opened");
-  console.log(handleAddCardSubmit);
 }
 
 newPostForm.addEventListener("submit", handleAddCardSubmit);
+console.log(newPostForm);

@@ -63,7 +63,6 @@
 .profile__edit-btn:hover {
   cursor: pointer;
   visibility: visible;
-  opacity: 1;
 }
 
 .profile__new-post-btn {
