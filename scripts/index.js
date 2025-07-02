@@ -60,4 +60,4 @@ function handleAddCardSubmit(evt) {
 }
 
 newPostForm.addEventListener("submit", handleAddCardSubmit);
-console.log(newPostForm);
+console.log(newPostTitleInput.value);
