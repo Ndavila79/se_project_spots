@@ -56,6 +56,7 @@ function handleAddCardSubmit(evt) {
   postImageEl.textContent = newPostImageInput.value;
   postTitleEl.textContent = newPostTitleInput.value;
   console.log(newPostTitleInput.value);
+  console.log(newPostImageInput.value);
   newPostModal.classList.remove("modal_is-opened");
 }
 

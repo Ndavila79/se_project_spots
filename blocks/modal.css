@@ -101,7 +101,7 @@
   height: 52px;
   font-family: "Poppins", Arial, sans-serif;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 100%;
   border-radius: 8px;
   padding: 18px, 32px;
@@ -114,7 +114,7 @@
 @media screen and (max-width: 320px) {
   .modal__submit-btn {
     width: 100%;
-    font-size: 20px;
+    font-size: 16px;
     max-width: none;
   }
 
