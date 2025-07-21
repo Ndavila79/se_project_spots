@@ -124,6 +124,13 @@
   cursor: pointer;
 }
 
+.modal__submit-btn:hover {
+  cursor: pointer;
+  opacity: 80%;
+  visibility: visible;
+  transition: opacity 0.5s linear;
+}
+
 .modal__image-container {
   position: relative;
 }
@@ -165,7 +172,11 @@
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 320px) {
+  .modal__caption {
+    font-size: 16px;
+  }
+
   .modal__submit-btn {
     width: 100%;
     font-size: 16px;
