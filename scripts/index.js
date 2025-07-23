@@ -137,7 +137,6 @@ editProfileForm.addEventListener("submit", function (evt) {
 
 newPostForm.addEventListener("submit", function (evt) {
   evt.preventDefault();
-  evt.target.reset();
   const inputValues = {
     name: newPostTitleInput.value,
     link: newPostImageInput.value,
@@ -145,6 +144,8 @@ newPostForm.addEventListener("submit", function (evt) {
 
   const cardElement = getCardElement(inputValues);
   cardsList.prepend(cardElement);
+
+  closeModal(newPostModal);
 });
 
 initialCards.forEach(function (item) {
