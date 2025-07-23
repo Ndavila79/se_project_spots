@@ -63,8 +63,8 @@
 .profile__edit-btn:hover {
   cursor: pointer;
   visibility: visible;
+  opacity: 100%;
 }
-
 .profile__new-post-btn {
   margin-left: auto;
   align-self: flex-end;

@@ -72,6 +72,7 @@
 }
 
 .card__delete-btn:hover {
+  background-image: url(../images/delete-hover.svg);
   background-repeat: no-repeat;
   cursor: pointer;
 }

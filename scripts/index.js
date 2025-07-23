@@ -131,11 +131,13 @@ editProfileForm.addEventListener("submit", function (evt) {
 
   profileNameEl.textContent = editProfileNameInput.value;
   profileDescriptionEl.textContent = editProfileDescriptionInput.value;
+
+  closeModal(editProfileModal);
 });
 
 newPostForm.addEventListener("submit", function (evt) {
   evt.preventDefault();
-
+  evt.target.reset();
   const inputValues = {
     name: newPostTitleInput.value,
     link: newPostImageInput.value,
