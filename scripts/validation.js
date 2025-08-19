@@ -40,12 +40,14 @@ const toggleButtonState = (inputList, buttonEl, settings) => {
     disabledButton(buttonEl);
   } else {
     buttonEl.disabled = false;
+    buttonEl.classList.remove("modal__submit-btn_state_inactive");
   }
 };
 
 const disabledButton = (buttonEl, config, settings) => {
   debugger;
   buttonEl.disabled = true;
+  buttonEl.classList.add("modal__submit-btn_state_inactive");
 };
 
 const resetValidation = (formEl, inputList, settings) => {

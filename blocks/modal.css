@@ -144,6 +144,10 @@
   transition: opacity 0.5s linear;
 }
 
+.modal__submit-btn_state_inactive {
+  background: #212121;
+}
+
 .modal__image-container {
   position: relative;
 }
