@@ -169,7 +169,6 @@
   background: rgba(33, 33, 33, 1);
   font-family: "Poppins", arial, sans-serif;
   font-weight: 500;
-  font-style: medium;
   font-size: 20px;
 }
 
@@ -181,7 +180,7 @@
 
   .modal__image {
     max-width: unset;
-    width: 288;
+    width: 288px;
     top: 206px;
     left: 16px;
     opacity: 1;
@@ -213,7 +212,7 @@
   }
 
   .modal__container {
-    border: 2px;
+    border: 2px solid #212121;
     padding: 10px;
   }
 

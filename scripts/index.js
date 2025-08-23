@@ -102,6 +102,9 @@ function getCardElement(data) {
 }
 
 function openModal(modal) {
+  document.addEventListener("keyup", handleEscape);
+  evt.key === "Escape";
+  evt.target.classList.contains("modal");
   modal.classList.add("modal_is-opened");
 }
 
@@ -112,7 +115,11 @@ function closeModal(modal) {
 editProfileBtn.addEventListener("click", function () {
   editProfileNameInput.value = profileNameEl.textContent;
   editProfileDescriptionInput.value = profileDescriptionEl.textContent;
-  resetValidation(editForm, nameInput, descriptionInput);
+  resetValidation(
+    editProfileForm,
+    [editProfileNameInput, editProfileDescriptionInput],
+    settings
+  );
   openModal(editProfileModal);
 });
 
