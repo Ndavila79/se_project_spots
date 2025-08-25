@@ -101,11 +101,11 @@ function getCardElement(data) {
   return cardElement;
 }
 
-function openModal(modal) {
-  document.addEventListener("keyup", handleEscape);
-  evt.key === "Escape";
-  evt.target.classList.contains("modal");
-  modal.classList.add("modal_is-opened");
+function handleEscape(evt) {
+  if (evt.key === "Escape") {
+    const openedModal = document.querySelector(".modal_opened");
+    closeModal(openedModal);
+  }
 }
 
 function closeModal(modal) {
