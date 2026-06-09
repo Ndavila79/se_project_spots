@@ -51,7 +51,7 @@
 }
 
 .modal__close-btn_type_preview {
-   background-image: url(/images/close-icon.svg);
+   background-image: url(../images/close-icon.svg);
   top: 0;
   right: -52.5px;
   width: 40px;
@@ -149,7 +149,7 @@
 
 .modal__submit-btn_state_inactive {
    opacity: 50%;
-  pointer-events: none; 
+  pointer-events: none;
 }
 
 .modal__image-container {

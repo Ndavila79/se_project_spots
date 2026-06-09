@@ -1,3 +1,10 @@
+import "core-js/stable";
+import "regenerator-runtime/runtime";
+
+import "./index.css";
+import { enableValidation, settings } from "../scripts/validation.js";
+
+
 const initialCards = [
   {
     name: "Golden Gate Bridge",
