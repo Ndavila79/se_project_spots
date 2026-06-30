@@ -77,6 +77,43 @@
   cursor: pointer;
 }
 
+#delete_post-form {
+  display: flex;
+  flex-direction: row;
+  justify-self: center;
+  width: 332px;
+  height: 52px;
+  gap: 20px;
+}
+
+#confirm_delete-btn {
+  background-color: #FF6565;
+  color: #212121;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 0;
+  flex: 1;
+}
+
+.confirm_delete-btn:hover {
+background-color: #FF3333;
+}
+
+#cancel_delete-btn {
+  background-color: #fff; /* light gray */
+  color: #212121;
+  border: 2px solid #212121;
+  border-radius: 8px;
+  padding: 12px 0;
+  flex: 1;
+  font-weight: 500;
+}
+
+#cancel_delete-btn:hover {
+background-color: #212121;
+color: #fff;
+}
+
 @media screen and (max-width: 627px) {
   .card__image {
     height: 288px;
@@ -95,4 +132,34 @@
     left: 246px;
     opacity: 1;
   }
+
+  #delete_post-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 156px;
+  height: 52px;
+  margin: 0;
+  /* top: 214px;
+  left: 10px;
+  gap: 20px; */
+  /* border-radius: 8px;
+  padding: 12px; */
+}
+
+.cancel__delete-btn {
+width: 156px;
+height: 52px;
+padding: 18px, 32px;
+gap: 8px;
+
+}
+
+.confirm__delete-btn {
+width: 156px;
+height: 52px;
+padding: 18px, 32px;
+}
+
+
 }

@@ -230,4 +230,13 @@
     height: 48px;
     gap: 8px;
   }
+  #delete_post-form {
+    padding: 18px 32px;
+    gap: 12px;
+  }
+
+  #delete_card-container {
+    height: 208px;
+
+  }
 }
