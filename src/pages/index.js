@@ -202,7 +202,7 @@ avatarForm.addEventListener("submit", (evt) => {
     })
     .catch((err) => console.error(err))
     .finally(() => {
-      renderloading(submitBtn);
+        renderLoading(false, submitBtn);
     });
 });
 
@@ -254,7 +254,7 @@ editProfileForm.addEventListener("submit", (evt) => {
     })
     .catch((err) => console.error(err))
     .finally(() => {
-      renderLoading(submitBtn);
+      renderLoading(false, submitBtn);
     });
 });
 
@@ -278,7 +278,7 @@ newPostForm.addEventListener("submit", (evt) => {
     })
     .catch((err) => console.error(err))
     .finally(() => {
-      renderLoading(submitBtn);
+      renderLoading(false, submitBtn);
     });
 });
 
